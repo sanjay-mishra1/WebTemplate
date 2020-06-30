@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://www.codervent.com/bulona/demo/components-range-slider.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Bulona - Bootstrap Admin Dashboard Template</title>
+  <!--favicon-->
+  <link rel="icon" href="http://www.codervent.com/bulona/demo/assets/images/favicon.ico" type="image/x-icon">
+  <!--Ion Range Slider-->
+  <link href="./components-range-slider_files/ion.rangeSlider.css" rel="stylesheet" type="text/css">
+  <link href="./components-range-slider_files/ion.rangeSlider.skinNice.css" rel="stylesheet" type="text/css">
+  <!-- simplebar CSS-->
+  <link href="./components-range-slider_files/simplebar.css" rel="stylesheet">
+  <!-- Bootstrap core CSS-->
+  <link href="./components-range-slider_files/bootstrap.min.css" rel="stylesheet">
+  <!-- animate CSS-->
+  <link href="./components-range-slider_files/animate.css" rel="stylesheet" type="text/css">
+  <!-- Icons CSS-->
+  <link href="./components-range-slider_files/icons.css" rel="stylesheet" type="text/css">
+  <!-- Sidebar CSS-->
+  <link href="./components-range-slider_files/sidebar-menu.css" rel="stylesheet">
+  <!-- Custom Style-->
+  <link href="./components-range-slider_files/app-style.css" rel="stylesheet">
+  <!-- skins CSS-->
+  <link href="./components-range-slider_files/skins.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+<!-- start loader -->
+   <div id="pageloader-overlay" class="visible incoming" style="display: none;"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
+   <!-- end loader -->
+
+<!-- Start wrapper-->
+ <div id="wrapper">
+
+   <!--Start sidebar-wrapper-->
+   <div id="sidebar-wrapper" data-simplebar="init" data-simplebar-auto-hide="true" class="active"><div class="simplebar-track vertical" style="visibility: visible;"><div class="simplebar-scrollbar visible" style="visibility: visible; top: 0px; height: 157px;"></div></div><div class="simplebar-track horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar"></div></div><div class="simplebar-scroll-content" style="padding-right: 17px; margin-bottom: -34px;"><div class="simplebar-content" style="padding-bottom: 17px; margin-right: -17px;">
+     <div class="brand-logo">
+      <a href="http://www.codervent.com/bulona/demo/index.html">
+       <img src="./components-range-slider_files/logo-icon.png" class="logo-icon" alt="logo icon">
+       <h5 class="logo-text">Bulona Admin</h5>
+     </a>
+   </div>
+   <div class="user-details">
+    <div class="media align-items-center user-pointer collapsed" data-toggle="collapse" data-target="#user-dropdown">
+      <div class="avatar"><img class="mr-3 side-user-img" src="./components-range-slider_files/avatar-13.png" alt="user avatar"></div>
+       <div class="media-body">
+       <h6 class="side-user-name">Mark Johnson</h6>
+      </div>
+       </div>
+     <div id="user-dropdown" class="collapse">
+      <ul class="user-setting-menu">
+            <li><a href="javaScript:void();"><i class="icon-user"></i>  My Profile</a></li>
+            <li><a href="javaScript:void();"><i class="icon-settings"></i> Setting</a></li>
+      <li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
+      </ul>
+     </div>
+      </div>
+   <ul class="sidebar-menu in">
+      <li class="sidebar-header">MAIN NAVIGATION</li>
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-view-dashboard"></i> <span>Dashboard</span><i class="fa fa-angle-left pull-right"></i>
+        </a>
+		<ul class="sidebar-submenu">
+		  <li><a href="http://www.codervent.com/bulona/demo/index.html"><i class="zmdi zmdi-dot-circle-alt"></i> eCommerce</a></li>
+		  <li><a href="http://www.codervent.com/bulona/demo/dashboard-human-resources.html"><i class="zmdi zmdi-dot-circle-alt"></i> Human Resources</a></li>
+		  <li><a href="http://www.codervent.com/bulona/demo/dashboard-digital-marketing.html"><i class="zmdi zmdi-dot-circle-alt"></i> Digital Marketing</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/dashboard-property-listing.html"><i class="zmdi zmdi-dot-circle-alt"></i> Property Listings</a></li>
+		  <li><a href="http://www.codervent.com/bulona/demo/dashboard-service-support.html"><i class="zmdi zmdi-dot-circle-alt"></i> Services &amp; Support</a></li>
+		  <li><a href="http://www.codervent.com/bulona/demo/dashboard-logistics.html"><i class="zmdi zmdi-dot-circle-alt"></i> Logistics</a></li>
+		</ul>
+      </li>
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-layers"></i>
+          <span>UI Elements</span> <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+    <li><a href="http://www.codervent.com/bulona/demo/ui-typography.html"><i class="zmdi zmdi-dot-circle-alt"></i> Typography</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-cards.html"><i class="zmdi zmdi-dot-circle-alt"></i> Cards</a></li>
+    <li><a href="http://www.codervent.com/bulona/demo/ui-buttons.html"><i class="zmdi zmdi-dot-circle-alt"></i> Buttons</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-nav-tabs.html"><i class="zmdi zmdi-dot-circle-alt"></i> Nav Tabs</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-accordions.html"><i class="zmdi zmdi-dot-circle-alt"></i> Accordions</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-modals.html"><i class="zmdi zmdi-dot-circle-alt"></i> Modals</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-list-groups.html"><i class="zmdi zmdi-dot-circle-alt"></i> List Groups</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-bootstrap-elements.html"><i class="zmdi zmdi-dot-circle-alt"></i> BS Elements</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-pagination.html"><i class="zmdi zmdi-dot-circle-alt"></i> Pagination</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-alerts.html"><i class="zmdi zmdi-dot-circle-alt"></i> Alerts</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-progressbars.html"><i class="zmdi zmdi-dot-circle-alt"></i> Progress Bars</a></li>
+    <li><a href="http://www.codervent.com/bulona/demo/ui-checkbox-radio.html"><i class="zmdi zmdi-dot-circle-alt"></i> Checkboxes &amp; Radios</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-notification.html"><i class="zmdi zmdi-dot-circle-alt"></i> Notifications</a></li>
+        <li><a href="http://www.codervent.com/bulona/demo/ui-sweet-alert.html"><i class="zmdi zmdi-dot-circle-alt"></i> Sweet Alerts</a></li>
+        </ul>
+      </li>
+      <li class="active">
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-card-travel"></i>
+          <span>Components</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu in">
+          <li class="active"><a href="http://www.codervent.com/bulona/demo/components-range-slider.html" class="active"><i class="zmdi zmdi-dot-circle-alt"></i> Range Sliders</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-image-carousel.html"><i class="zmdi zmdi-dot-circle-alt"></i> Image Carousels</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-grid-layouts.html"><i class="zmdi zmdi-dot-circle-alt"></i> Grid Layouts</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-switcher-buttons.html"><i class="zmdi zmdi-dot-circle-alt"></i> Switcher Buttons</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-pricing-table.html"><i class="zmdi zmdi-dot-circle-alt"></i> Pricing Tables</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-vertical-timeline.html"><i class="zmdi zmdi-dot-circle-alt"></i> Vertical Timeline</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-horizontal-timeline.html"><i class="zmdi zmdi-dot-circle-alt"></i> Horizontal Timeline</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-fancy-lightbox.html"><i class="zmdi zmdi-dot-circle-alt"></i> Fancy Lightbox</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/components-color-palette.html"><i class="zmdi zmdi-dot-circle-alt"></i> Color Palette</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-chart"></i> <span>Charts</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/charts-chartjs.html"><i class="zmdi zmdi-dot-circle-alt"></i> Chart JS</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/charts-apex.html"><i class="zmdi zmdi-dot-circle-alt"></i> Apex Charts</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/charts-sparkline.html"><i class="zmdi zmdi-dot-circle-alt"></i> Sparkline Charts</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/charts-peity.html"><i class="zmdi zmdi-dot-circle-alt"></i> Peity Charts</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/charts-other.html"><i class="zmdi zmdi-dot-circle-alt"></i> Other Charts</a></li>
+        </ul>
+       </li>
+     <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-invert-colors"></i> <span>UI Icons</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/icons-font-awesome.html"><i class="zmdi zmdi-dot-circle-alt"></i> Font Awesome</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/icons-material-designs.html"><i class="zmdi zmdi-dot-circle-alt"></i> Material Design</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/icons-themify.html"><i class="zmdi zmdi-dot-circle-alt"></i> Themify Icons</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/icons-simple-line-icons.html"><i class="zmdi zmdi-dot-circle-alt"></i> Line Icons</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/icons-flags.html"><i class="zmdi zmdi-dot-circle-alt"></i> Flag Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://www.codervent.com/bulona/demo/calendar.html" class="waves-effect">
+          <i class="zmdi zmdi-calendar-check"></i> <span>Calendar</span>
+          <small class="badge float-right badge-light">New</small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-email"></i>
+          <span>Mailbox</span>
+           <small class="badge float-right badge-warning">12</small>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/mail-inbox.html"><i class="zmdi zmdi-dot-circle-alt"></i> Inbox</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/mail-compose.html"><i class="zmdi zmdi-dot-circle-alt"></i> Compose</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/mail-read.html"><i class="zmdi zmdi-dot-circle-alt"></i> Read Mail</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-format-list-bulleted"></i> <span>Forms</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/form-inputs.html"><i class="zmdi zmdi-dot-circle-alt"></i> Basic Inputs</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-input-group.html"><i class="zmdi zmdi-dot-circle-alt"></i> Input Groups</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-layouts.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Layouts</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-advanced.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Advanced</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-uploads.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Uploads</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-validation.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Validation</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-step-wizard.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Wizard</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/form-text-editor.html"><i class="zmdi zmdi-dot-circle-alt"></i> Form Editor</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-lock"></i> <span>Authentication</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-signin.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> SignIn 1</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-signup.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> SignUp 1</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-signin2.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> SignIn 2</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-signup2.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> SignUp 2</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-lock-screen.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> Lock Screen</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-reset-password.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> Reset Password 1</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/authentication-reset-password2.html" target="_blank"><i class="zmdi zmdi-dot-circle-alt"></i> Reset Password 2</a></li>
+        </ul>
+       </li>
+
+       <li>
+        <a href="http://www.codervent.com/bulona/demo/widgets.html" class="waves-effect">
+          <i class="zmdi zmdi-widgets"></i> <span>Widgets</span>
+          <small class="badge float-right badge-danger">10</small>
+        </a>
+      </li>
+     
+     <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-grid"></i> <span>Tables</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/table-simple-tables.html"><i class="zmdi zmdi-dot-circle-alt"></i> Simple Tables</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/table-data-tables.html"><i class="zmdi zmdi-dot-circle-alt"></i> Data Tables</a></li>
+        </ul>
+       </li>
+     
+     <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-map"></i> <span>Maps</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="http://www.codervent.com/bulona/demo/maps-google.html"><i class="zmdi zmdi-dot-circle-alt"></i> Google Maps</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/maps-vector.html"><i class="zmdi zmdi-dot-circle-alt"></i> Vector Maps</a></li>
+        </ul>
+       </li>
+     
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="zmdi zmdi-collection-folder-image"></i> <span>Sample Pages</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+              <li><a href="http://www.codervent.com/bulona/demo/pages-invoice.html"><i class="zmdi zmdi-dot-circle-alt"></i> Invoice</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/pages-user-profile.html"><i class="zmdi zmdi-dot-circle-alt"></i> User Profile</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/pages-blank-page.html"><i class="zmdi zmdi-dot-circle-alt"></i> Blank Page</a></li>
+              <li><a href="http://www.codervent.com/bulona/demo/pages-coming-soon.html"><i class="zmdi zmdi-dot-circle-alt"></i> Coming Soon</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/pages-403.html"><i class="zmdi zmdi-dot-circle-alt"></i> 403 Error</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/pages-404.html"><i class="zmdi zmdi-dot-circle-alt"></i> 404 Error</a></li>
+          <li><a href="http://www.codervent.com/bulona/demo/pages-500.html"><i class="zmdi zmdi-dot-circle-alt"></i> 500 Error</a></li>
+        </ul>
+       </li>
+
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="fa fa-share"></i> <span>Multilevel</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level One</a></li>
+          <li>
+            <a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
+            <ul class="sidebar-submenu">
+              <li><a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level Two</a></li>
+              <li>
+                <a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="sidebar-submenu">
+                  <li><a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level Three</a></li>
+                  <li><a href="javaScript:void();"><i class="zmdi zmdi-dot-circle-alt"></i> Level Three</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-dot-circle-alt"></i> Level One</a></li>
+        </ul>
+      </li>
+      <li class="sidebar-header">LABELS</li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-coffee text-danger"></i> <span>Important</span></a></li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-chart-donut text-success"></i> <span>Warning</span></a></li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-share text-info"></i> <span>Information</span></a></li>
+    </ul>
+   
+   </div></div></div>
+   <!--End sidebar-wrapper-->
+
+<!--Start topbar header-->
+<header class="topbar-nav">
+ <nav id="header-setting" class="navbar navbar-expand fixed-top">
+  <ul class="navbar-nav mr-auto align-items-center">
+    <li class="nav-item">
+      <a class="nav-link toggle-menu" href="javascript:void();">
+       <i class="icon-menu menu-icon"></i>
+     </a>
+    </li>
+    <li class="nav-item">
+      <form class="search-bar">
+        <input type="text" class="form-control" placeholder="Enter keywords">
+         <a href="javascript:void();"><i class="icon-magnifier"></i></a>
+      </form>
+    </li>
+  </ul>
+     
+  <ul class="navbar-nav align-items-center right-nav-link">
+    <li class="nav-item dropdown-lg">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+      <i class="fa fa-envelope-open-o"></i><span class="badge badge-primary badge-up">12</span></a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <ul class="list-group list-group-flush">
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+          You have 12 new messages
+          <span class="badge badge-primary">12</span>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="./components-range-slider_files/avatar-5.png" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Jhon Deo</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            <small>Today, 4:10 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="./components-range-slider_files/avatar-6.png" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Sara Jen</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            <small>Yesterday, 8:30 AM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="./components-range-slider_files/avatar-7.png" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Dannish Josh</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+             <small>5/11/2018, 2:50 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="./components-range-slider_files/avatar-8.png" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Katrina Mccoy</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet.</p>
+            <small>1/11/2018, 2:50 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item text-center"><a href="javaScript:void();">See All Messages</a></li>
+        </ul>
+        </div>
+    </li>
+    <li class="nav-item dropdown-lg">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+    <i class="fa fa-bell-o"></i><span class="badge badge-info badge-up">14</span></a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+          You have 14 Notifications
+          <span class="badge badge-info">14</span>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-accounts fa-2x mr-3 text-info"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Registered Users</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-coffee fa-2x mr-3 text-warning"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Received Orders</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-notifications-active fa-2x mr-3 text-danger"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Updates</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item text-center"><a href="javaScript:void();">See All Notifications</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item language">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();"><i class="fa fa-flag"></i></a>
+      <ul class="dropdown-menu dropdown-menu-right">
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-fr mr-2"></i> French</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-cn mr-2"></i> Chinese</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-de mr-2"></i> German</li>
+        </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="http://www.codervent.com/bulona/demo/components-range-slider.html#">
+        <span class="user-profile"><img src="./components-range-slider_files/avatar-13.png" class="img-circle" alt="user avatar"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-right">
+       <li class="dropdown-item user-details">
+        <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="./components-range-slider_files/avatar-13.png" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-2 user-title">Sarajhon Mccoy</h6>
+            <p class="user-subtitle">mccoy@example.com</p>
+            </div>
+           </div>
+          </a>
+        </li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-power mr-2"></i> Logout</li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</header>
+<!--End topbar header-->
+
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Breadcrumb-->
+     <div class="row pt-2 pb-2">
+        <div class="col-sm-9">
+		    <h4 class="page-title">Range Slider</h4>
+		    <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javaScript:void();">Bulona</a></li>
+            <li class="breadcrumb-item"><a href="javaScript:void();">Components</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Range Slider</li>
+         </ol>
+	   </div>
+	   <div class="col-sm-3">
+       <div class="btn-group float-sm-right">
+        <button type="button" class="btn btn-light waves-effect waves-light"><i class="fa fa-cog mr-1"></i> Setting</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split waves-effect waves-light" data-toggle="dropdown">
+        <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="javaScript:void();" class="dropdown-item">Action</a>
+          <a href="javaScript:void();" class="dropdown-item">Another action</a>
+          <a href="javaScript:void();" class="dropdown-item">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a href="javaScript:void();" class="dropdown-item">Separated link</a>
+        </div>
+      </div>
+     </div>
+     </div>
+    <!-- End Breadcrumb-->
+       <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+             <div class="card-header text-uppercase">Range Slider</div>
+             <div class="card-body">
+                <label>Start without params</label>
+                <span class="irs js-irs-0"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">10</span><span class="irs-max" style="visibility: visible;">100</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 0%;">10</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 1.09019%; width: 0%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 0%;"></span></span><input type="text" id="range_01" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Set min value, max value and start point</label>
+                <span class="irs js-irs-1"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">100</span><span class="irs-max" style="visibility: visible;">1 000</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 28.5051%;">365</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 1.09019%; width: 28.8024%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 28.8024%;"></span></span><input type="text" id="range_02" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Set type to double and specify range, also showing grid and adding prefix "$"</label>
+                <span class="irs js-irs-2  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">$0</span><span class="irs-max" style="visibility: visible;">$1 000</span><span class="irs-from" style="visibility: visible; left: 55.7977%;">$577</span><span class="irs-to" style="visibility: visible; left: 77.6611%;">$800</span><span class="irs-single" style="visibility: hidden; left: 64.7968%;">$577 — $800</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.09019%;">250</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -1.09019%;">500</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.13974%;">750</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.53617%;">1 000</span></span><span class="irs-bar" style="left: 57.5321%; width: 21.8138%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from type_last" style="left: 56.4419%;"></span><span class="irs-slider to" style="left: 78.2557%;"></span></span><input type="text" id="range_03" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Set up range with negative values</label>
+                <span class="irs js-irs-3  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">-1 000</span><span class="irs-max" style="visibility: visible;">1 000</span><span class="irs-from" style="visibility: visible; left: 23.9594%;">-500</span><span class="irs-to" style="visibility: visible; left: 73.0674%;">500</span><span class="irs-single" style="visibility: hidden; left: 46.7294%;">-500 — 500</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.68484%;">-1 000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.23885%;">-500</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.13974%;">500</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.53617%;">1 000</span></span><span class="irs-bar" style="left: 25.5451%; width: 48.9098%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 24.4549%;"></span><span class="irs-slider to type_last" style="left: 73.3647%;"></span></span><input type="text" id="range_04" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Using step 250</label>
+                <span class="irs js-irs-4  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">-1 000</span><span class="irs-max" style="visibility: visible;">1 000</span><span class="irs-from" style="visibility: visible; left: 23.9594%;">-500</span><span class="irs-to" style="visibility: visible; left: 73.0674%;">500</span><span class="irs-single" style="visibility: hidden; left: 46.7294%;">-500 — 500</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.68484%;">-1 000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.23885%;">-500</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.13974%;">500</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.53617%;">1 000</span></span><span class="irs-bar" style="left: 25.5451%; width: 48.9098%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 24.4549%;"></span><span class="irs-slider to type_last" style="left: 73.3647%;"></span></span><input type="text" id="range_05" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Set up range with fractional values, using fractional step</label>
+                <span class="irs js-irs-5  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">-12.8</span><span class="irs-max" style="visibility: visible;">12.8</span><span class="irs-from" style="visibility: visible; left: 36.3355%;">-3.2</span><span class="irs-to" style="visibility: visible; left: 60.9886%;">3.2</span><span class="irs-single" style="visibility: hidden; left: 47.0268%;">-3.2 — 3.2</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.38751%;">-12.8</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.09019%;">-6.4</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -0.99108%;">6.4</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.2884%;">12.8</span></span><span class="irs-bar" style="left: 37.7725%; width: 24.4549%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 36.6824%;"></span><span class="irs-slider to type_last" style="left: 61.1373%;"></span></span><input type="text" id="range_06" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Set up you own numbers</label>
+                <span class="irs js-irs-6  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">0</span><span class="irs-max" style="visibility: visible;">1 000 000</span><span class="irs-from" style="visibility: visible; left: 16.3033%;">10</span><span class="irs-to" style="visibility: visible; left: 80.1288%;">100 000</span><span class="irs-single" style="visibility: hidden; left: 46.9277%;">10 — 100 000</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 12.5%"></span><span class="irs-grid-pol small" style="left: 8.333333333333334%"></span><span class="irs-grid-pol small" style="left: 4.166666666666668%"></span><span class="irs-grid-pol" style="left: 16.666666666666668%"></span><span class="irs-grid-text js-grid-text-1" style="left: 16.6667%; visibility: visible; margin-left: -0.842418%;">10</span><span class="irs-grid-pol small" style="left: 29.166666666666668%"></span><span class="irs-grid-pol small" style="left: 25%"></span><span class="irs-grid-pol small" style="left: 20.833333333333336%"></span><span class="irs-grid-pol" style="left: 33.333333333333336%"></span><span class="irs-grid-text js-grid-text-2" style="left: 33.3333%; visibility: visible; margin-left: -1.09019%;">100</span><span class="irs-grid-pol small" style="left: 45.833333333333336%"></span><span class="irs-grid-pol small" style="left: 41.66666666666667%"></span><span class="irs-grid-pol small" style="left: 37.5%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-3" style="left: 50%; visibility: visible; margin-left: -1.53617%;">1 000</span><span class="irs-grid-pol small" style="left: 62.5%"></span><span class="irs-grid-pol small" style="left: 58.333333333333336%"></span><span class="irs-grid-pol small" style="left: 54.16666666666667%"></span><span class="irs-grid-pol" style="left: 66.66666666666667%"></span><span class="irs-grid-text js-grid-text-4" style="left: 66.6667%; margin-left: -1.78394%;">10 000</span><span class="irs-grid-pol small" style="left: 79.16666666666667%"></span><span class="irs-grid-pol small" style="left: 75%"></span><span class="irs-grid-pol small" style="left: 70.83333333333334%"></span><span class="irs-grid-pol" style="left: 83.33333333333334%"></span><span class="irs-grid-text js-grid-text-5" style="left: 83.3333%; visibility: visible; margin-left: -2.08127%;">100 000</span><span class="irs-grid-pol small" style="left: 95.83333333333334%"></span><span class="irs-grid-pol small" style="left: 91.66666666666667%"></span><span class="irs-grid-pol small" style="left: 87.5%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-6" style="left: 100%; visibility: visible; margin-left: -2.4777%;">1 000 000</span></span><span class="irs-bar" style="left: 17.3935%; width: 65.2131%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 16.3033%;"></span><span class="irs-slider to type_last" style="left: 81.5164%;"></span></span><input type="text" id="range_07" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Using any strings as your values</label>
+                <span class="irs js-irs-7  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">zero</span><span class="irs-max" style="visibility: visible;">ten</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 48.6125%;">five</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.23885%;">zero</span><span class="irs-grid-pol small" style="left: 6.666666666666666%"></span><span class="irs-grid-pol small" style="left: 3.333333333333333%"></span><span class="irs-grid-pol" style="left: 10%"></span><span class="irs-grid-text js-grid-text-1" style="left: 10%; visibility: visible; margin-left: -1.09019%;">one</span><span class="irs-grid-pol small" style="left: 16.666666666666668%"></span><span class="irs-grid-pol small" style="left: 13.333333333333332%"></span><span class="irs-grid-pol" style="left: 20%"></span><span class="irs-grid-text js-grid-text-2" style="left: 20%; visibility: visible; margin-left: -1.13974%;">two</span><span class="irs-grid-pol small" style="left: 26.666666666666668%"></span><span class="irs-grid-pol small" style="left: 23.333333333333332%"></span><span class="irs-grid-pol" style="left: 30%"></span><span class="irs-grid-text js-grid-text-3" style="left: 30%; visibility: visible; margin-left: -1.43707%;">three</span><span class="irs-grid-pol small" style="left: 36.666666666666664%"></span><span class="irs-grid-pol small" style="left: 33.333333333333336%"></span><span class="irs-grid-pol" style="left: 40%"></span><span class="irs-grid-text js-grid-text-4" style="left: 40%; margin-left: -1.1893%;">four</span><span class="irs-grid-pol small" style="left: 46.666666666666664%"></span><span class="irs-grid-pol small" style="left: 43.333333333333336%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-5" style="left: 50%; visibility: visible; margin-left: -1.09019%;">five</span><span class="irs-grid-pol small" style="left: 56.666666666666664%"></span><span class="irs-grid-pol small" style="left: 53.333333333333336%"></span><span class="irs-grid-pol" style="left: 60%"></span><span class="irs-grid-text js-grid-text-6" style="left: 60%; visibility: visible; margin-left: -0.941526%;">six</span><span class="irs-grid-pol small" style="left: 66.66666666666667%"></span><span class="irs-grid-pol small" style="left: 63.333333333333336%"></span><span class="irs-grid-pol" style="left: 70%"></span><span class="irs-grid-text js-grid-text-7" style="left: 70%; visibility: visible; margin-left: -1.58573%;">seven</span><span class="irs-grid-pol small" style="left: 76.66666666666667%"></span><span class="irs-grid-pol small" style="left: 73.33333333333333%"></span><span class="irs-grid-pol" style="left: 80%"></span><span class="irs-grid-text js-grid-text-8" style="left: 80%; margin-left: -1.38751%;">eight</span><span class="irs-grid-pol small" style="left: 86.66666666666667%"></span><span class="irs-grid-pol small" style="left: 83.33333333333333%"></span><span class="irs-grid-pol" style="left: 90%"></span><span class="irs-grid-text js-grid-text-9" style="left: 90%; visibility: visible; margin-left: -1.23885%;">nine</span><span class="irs-grid-pol small" style="left: 96.66666666666667%"></span><span class="irs-grid-pol small" style="left: 93.33333333333333%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-10" style="left: 100%; visibility: visible; margin-left: -0.99108%;">ten</span></span><span class="irs-bar" style="left: 1.09019%; width: 48.9098%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 48.9098%;"></span></span><input type="text" id="range_08" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>One more example with strings</label>
+                <span class="irs js-irs-8  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">January</span><span class="irs-max" style="visibility: visible;">December</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 26.133%;">April</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -2.08127%;">January</span><span class="irs-grid-pol small" style="left: 6.0606060606060606%"></span><span class="irs-grid-pol small" style="left: 3.0303030303030303%"></span><span class="irs-grid-pol" style="left: 9.090909090909092%"></span><span class="irs-grid-text js-grid-text-1" style="left: 9.09091%; visibility: visible; margin-left: -2.22993%;">February</span><span class="irs-grid-pol small" style="left: 15.151515151515152%"></span><span class="irs-grid-pol small" style="left: 12.121212121212121%"></span><span class="irs-grid-pol" style="left: 18.181818181818183%"></span><span class="irs-grid-text js-grid-text-2" style="left: 18.1818%; visibility: visible; margin-left: -1.68484%;">March</span><span class="irs-grid-pol small" style="left: 24.242424242424242%"></span><span class="irs-grid-pol small" style="left: 21.212121212121215%"></span><span class="irs-grid-pol" style="left: 27.272727272727273%"></span><span class="irs-grid-text js-grid-text-3" style="left: 27.2727%; visibility: visible; margin-left: -1.33796%;">April</span><span class="irs-grid-pol small" style="left: 33.333333333333336%"></span><span class="irs-grid-pol small" style="left: 30.303030303030305%"></span><span class="irs-grid-pol" style="left: 36.36363636363637%"></span><span class="irs-grid-text js-grid-text-4" style="left: 36.3636%; margin-left: -1.23885%;">May</span><span class="irs-grid-pol small" style="left: 42.42424242424243%"></span><span class="irs-grid-pol small" style="left: 39.3939393939394%"></span><span class="irs-grid-pol" style="left: 45.45454545454546%"></span><span class="irs-grid-text js-grid-text-5" style="left: 45.4545%; visibility: visible; margin-left: -1.38751%;">June</span><span class="irs-grid-pol small" style="left: 51.515151515151516%"></span><span class="irs-grid-pol small" style="left: 48.48484848484849%"></span><span class="irs-grid-pol" style="left: 54.54545454545455%"></span><span class="irs-grid-text js-grid-text-6" style="left: 54.5455%; visibility: visible; margin-left: -1.23885%;">July</span><span class="irs-grid-pol small" style="left: 60.60606060606061%"></span><span class="irs-grid-pol small" style="left: 57.57575757575758%"></span><span class="irs-grid-pol" style="left: 63.63636363636364%"></span><span class="irs-grid-text js-grid-text-7" style="left: 63.6364%; visibility: visible; margin-left: -1.8335%;">August</span><span class="irs-grid-pol small" style="left: 69.6969696969697%"></span><span class="irs-grid-pol small" style="left: 66.66666666666667%"></span><span class="irs-grid-pol" style="left: 72.72727272727273%"></span><span class="irs-grid-text js-grid-text-8" style="left: 72.7273%; margin-left: -2.72547%;">September</span><span class="irs-grid-pol small" style="left: 78.7878787878788%"></span><span class="irs-grid-pol small" style="left: 75.75757575757576%"></span><span class="irs-grid-pol" style="left: 81.81818181818183%"></span><span class="irs-grid-text js-grid-text-9" style="left: 81.8182%; visibility: visible; margin-left: -2.08127%;">October</span><span class="irs-grid-pol small" style="left: 87.87878787878789%"></span><span class="irs-grid-pol small" style="left: 84.84848484848486%"></span><span class="irs-grid-pol" style="left: 90.90909090909092%"></span><span class="irs-grid-text js-grid-text-10" style="left: 90.9091%; visibility: visible; margin-left: -2.52725%;">November</span><span class="irs-grid-pol small" style="left: 96.96969696969697%"></span><span class="irs-grid-pol small" style="left: 93.93939393939395%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-11" style="left: 100%; visibility: visible; margin-left: -2.52725%;">December</span></span><span class="irs-bar" style="left: 1.09019%; width: 26.6781%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 26.6781%;"></span></span><input type="text" id="range_09" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>No prettify. Big numbers are ugly and unreadable</label>
+                <span class="irs js-irs-9  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">1000</span><span class="irs-max" style="visibility: visible;">1000000</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 8.45499%;">100000</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.43707%;">1000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.93261%;">250750</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -1.98216%;">500500</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.93261%;">750250</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -2.22993%;">1000000</span></span><span class="irs-bar" style="left: 1.09019%; width: 9.69384%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 9.69384%;"></span></span><input type="text" id="range_10" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <label>Prettify enabled. Much better!</label>
+                <span class="irs js-irs-10  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">1 000</span><span class="irs-max" style="visibility: visible;">1 000 000</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 18.0981%;">200 000</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.53617%;">1 000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -2.08127%;">250 750</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -2.08127%;">500 500</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -2.08127%;">750 250</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -2.4777%;">1 000 000</span></span><span class="irs-bar" style="left: 1.09019%; width: 19.4856%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 19.4856%;"></span></span><input type="text" id="range_11" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Don't like space as separator? Use anything you like!</label>
+                <span class="irs js-irs-11  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">1.000</span><span class="irs-max" style="visibility: visible;">1.000.000</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 27.8898%;">300.000</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.53617%;">1.000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -2.08127%;">250.750</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -2.08127%;">500.500</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -2.08127%;">750.250</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -2.52725%;">1.000.000</span></span><span class="irs-bar" style="left: 1.09019%; width: 29.2773%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 29.2773%;"></span></span><input type="text" id="range_12" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>You don't like default prettify function? Use your own!</label>
+                <span class="irs js-irs-12  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">809</span><span class="irs-max" style="visibility: visible;">609947</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 37.8302%;">138476</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.09019%;">140</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.93261%;">168020</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -1.98216%;">147733</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.93261%;">680975</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.93261%;">565624</span></span><span class="irs-bar" style="left: 1.09019%; width: 39.0691%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 39.0691%;"></span></span><input type="text" id="range_13" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Using prefixes</label>
+                <span class="irs js-irs-13  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">$0</span><span class="irs-max" style="visibility: hidden;">$10 000</span><span class="irs-from" style="visibility: visible; left: 8.69177%;">$1 000</span><span class="irs-to" style="visibility: visible; left: 96.4321%;">$10 000</span><span class="irs-single" style="visibility: hidden; left: 50.2329%;">$1 000 — $10 000</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.53617%;">2 500</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -1.53617%;">5 000</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.53617%;">7 500</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.78394%;">10 000</span></span><span class="irs-bar" style="left: 10.8722%; width: 88.0377%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from type_last" style="left: 9.78196%;"></span><span class="irs-slider to" style="left: 97.8196%;"></span></span><input type="text" id="range_14" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Using postfixes</label>
+                <span class="irs js-irs-14  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">-90°</span><span class="irs-max" style="visibility: visible;">90°</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 49.0089%;">0°</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -0.99108%;">-90</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -0.99108%;">-45</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -0.594648%;">0</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -0.842418%;">45</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -0.842418%;">90</span></span><span class="irs-bar" style="left: 1.09019%; width: 48.9098%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 48.9098%;"></span></span><input type="text" id="range_15" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Whant to show that max number is not the biggest one?</label>
+                <span class="irs js-irs-15  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">Age 18</span><span class="irs-max" style="visibility: visible;">Age 70+</span><span class="irs-from" style="visibility: hidden;">0</span><span class="irs-to" style="visibility: hidden;">0</span><span class="irs-single" style="left: 21.4836%;">Age 30</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -0.842418%;">18</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -0.891972%;">31</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -0.842418%;">44</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -0.842418%;">57</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -0.842418%;">70</span></span><span class="irs-bar" style="left: 1.09019%; width: 22.5738%;"></span><span class="irs-bar-edge"></span><span class="irs-shadow shadow-single" style="display: none;"></span><span class="irs-slider single" style="left: 22.5738%;"></span></span><input type="text" id="range_16" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Taking care about how from and to values connect? Use decorate_both option:</label>
+                <span class="irs js-irs-16"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">Weight: 100 million pounds</span><span class="irs-max" style="visibility: visible;">Weight: 200 million pounds</span><span class="irs-from" style="visibility: hidden; left: 38.0228%;">Weight: 145 million pounds</span><span class="irs-to" style="visibility: hidden; left: 47.8048%;">Weight: 155 million pounds</span><span class="irs-single" style="visibility: visible; left: 35.5798%;">Weight: 145 million pounds — Weight: 155 million pounds</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 45.109%; width: 9.78196%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 44.0188%;"></span><span class="irs-slider to type_last" style="left: 53.8008%;"></span></span><input type="text" id="range_17" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Remove double decoration</label>
+                <span class="irs js-irs-17"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">Weight: 100 million pounds</span><span class="irs-max" style="visibility: visible;">Weight: 200 million pounds</span><span class="irs-from" style="visibility: hidden; left: 38.0228%;">Weight: 145 million pounds</span><span class="irs-to" style="visibility: hidden; left: 47.8048%;">Weight: 155 million pounds</span><span class="irs-single" style="visibility: visible; left: 41.2785%;">Weight: 145 — 155 million pounds</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 45.109%; width: 9.78196%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 44.0188%;"></span><span class="irs-slider to type_last" style="left: 53.8008%;"></span></span><input type="text" id="range_18" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Use your own separator symbol with values_separator option. Like →</label>
+                <span class="irs js-irs-18"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">Weight: 100 million pounds</span><span class="irs-max" style="visibility: visible;">Weight: 200 million pounds</span><span class="irs-from" style="visibility: hidden; left: 40.9574%;">Weight: 148 million pounds</span><span class="irs-to" style="visibility: hidden; left: 44.8702%;">Weight: 152 million pounds</span><span class="irs-single" style="visibility: visible; left: 35.4807%;">Weight: 148 million pounds → Weight: 152 million pounds</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 48.0436%; width: 3.91278%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 46.9534%;"></span><span class="irs-slider to type_last" style="left: 50.8662%;"></span></span><input type="text" id="range_19" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Or " to ":</label>
+                <span class="irs js-irs-19"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: visible;">Range: 100 light years</span><span class="irs-max" style="visibility: visible;">Range: 200 light years</span><span class="irs-from" style="visibility: hidden; left: 42.1467%;">Range: 148 light years</span><span class="irs-to" style="visibility: hidden; left: 46.0595%;">Range: 152 light years</span><span class="irs-single" style="visibility: visible; left: 42.4182%;">Range: 148 to 152 light years</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 48.0436%; width: 3.91278%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 46.9534%;"></span><span class="irs-slider to type_last" style="left: 50.8662%;"></span></span><input type="text" id="range_20" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>You can disable all the sliders visual details, if you wish. Like this:</label>
+                <span class="irs js-irs-20"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="display: none;">0</span><span class="irs-max" style="display: none;">1</span><span class="irs-from" style="display: none; left: 0%;">0</span><span class="irs-to" style="display: none; left: 0%;">0</span><span class="irs-single" style="display: none; left: 0%;">0</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 20.6541%; width: 58.6918%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 19.5639%;"></span><span class="irs-slider to type_last" style="left: 78.2557%;"></span></span><input type="text" id="range_21" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>Or hide any part you wish</label>
+                <span class="irs js-irs-21  irs-with-grid"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="display: none;">0</span><span class="irs-max" style="display: none;">1</span><span class="irs-from" style="display: none; left: 0%;">0</span><span class="irs-to" style="display: none; left: 0%;">0</span><span class="irs-single" style="display: none; left: 0%;">0</span></span><span class="irs-grid" style="width: 97.8196%; left: 0.990188%;"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -1.53617%;">1 000</span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 15%"></span><span class="irs-grid-pol small" style="left: 10%"></span><span class="irs-grid-pol small" style="left: 5%"></span><span class="irs-grid-pol" style="left: 25%"></span><span class="irs-grid-text js-grid-text-1" style="left: 25%; visibility: visible; margin-left: -1.53617%;">1 250</span><span class="irs-grid-pol small" style="left: 45%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol small" style="left: 35%"></span><span class="irs-grid-pol small" style="left: 30%"></span><span class="irs-grid-pol" style="left: 50%"></span><span class="irs-grid-text js-grid-text-2" style="left: 50%; visibility: visible; margin-left: -1.53617%;">1 500</span><span class="irs-grid-pol small" style="left: 70%"></span><span class="irs-grid-pol small" style="left: 65%"></span><span class="irs-grid-pol small" style="left: 60%"></span><span class="irs-grid-pol small" style="left: 55%"></span><span class="irs-grid-pol" style="left: 75%"></span><span class="irs-grid-text js-grid-text-3" style="left: 75%; visibility: visible; margin-left: -1.53617%;">1 750</span><span class="irs-grid-pol small" style="left: 95%"></span><span class="irs-grid-pol small" style="left: 90%"></span><span class="irs-grid-pol small" style="left: 85%"></span><span class="irs-grid-pol small" style="left: 80%"></span><span class="irs-grid-pol" style="left: 100%"></span><span class="irs-grid-text js-grid-text-4" style="left: 100%; margin-left: -1.53617%;">2 000</span></span><span class="irs-bar" style="left: 20.6541%; width: 58.6918%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 19.5639%;"></span><span class="irs-slider to type_last" style="left: 78.2557%;"></span></span><input type="text" id="range_22" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>And some more</label>
+                <span class="irs js-irs-22"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min">1 000</span><span class="irs-max">2 000</span><span class="irs-from" style="display: none; left: 0%;">0</span><span class="irs-to" style="display: none; left: 0%;">0</span><span class="irs-single" style="display: none; left: 0%;">0</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 20.6541%; width: 58.6918%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 19.5639%;"></span><span class="irs-slider to type_last" style="left: 78.2557%;"></span></span><input type="text" id="range_23" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+                <hr>
+                <label>And some more</label>
+                <span class="irs js-irs-23"><span class="irs"><span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="display: none; visibility: visible;">0</span><span class="irs-max" style="display: none; visibility: visible;">1</span><span class="irs-from" style="visibility: visible; left: 18.8206%;">1 200</span><span class="irs-to" style="visibility: visible; left: 77.5124%;">1 800</span><span class="irs-single" style="visibility: hidden; left: 46.0852%;">1 200 — 1 800</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 20.6541%; width: 58.6918%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 19.5639%;"></span><span class="irs-slider to type_last" style="left: 78.2557%;"></span></span><input type="text" id="range_24" value="" name="range" class="irs-hidden-input" tabindex="-1" readonly="">
+             </div>
+          </div>
+        </div>
+      </div>
+<!--start overlay-->
+	  <div class="overlay toggle-menu"></div>
+	<!--end overlay-->
+    </div>
+    <!-- End container-fluid-->
+    
+    </div><!--End content-wrapper-->
+   <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top" style="display: inline;"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+	
+	<!--Start footer-->
+	<footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          Copyright © 2019 Bulona Admin
+        </div>
+      </div>
+    </footer>
+	<!--End footer-->
+	
+	<!--start color switcher-->
+   <div class="right-sidebar">
+    <div class="switcher-icon">
+      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+    </div>
+    <div class="right-sidebar-content">
+	
+	
+	 <p class="mb-0">Header Colors</p>
+      <hr>
+	  
+	  <div class="mb-3">
+	    <button type="button" id="default-header" class="btn btn-outline-primary">Default Header</button>
+	  </div>
+      
+      <ul class="switcher">
+        <li id="header1"></li>
+        <li id="header2"></li>
+        <li id="header3"></li>
+        <li id="header4"></li>
+        <li id="header5"></li>
+        <li id="header6"></li>
+      </ul>
+
+      <p class="mb-0">Sidebar Colors</p>
+      <hr>
+	  
+      <div class="mb-3">
+	    <button type="button" id="default-sidebar" class="btn btn-outline-primary">Default Header</button>
+	  </div>
+	  
+      <ul class="switcher">
+        <li id="theme1"></li>
+        <li id="theme2"></li>
+        <li id="theme3"></li>
+        <li id="theme4"></li>
+        <li id="theme5"></li>
+        <li id="theme6"></li>
+      </ul>
+      
+     </div>
+   </div>
+  <!--end color switcher-->
+   
+  </div><!--End wrapper-->
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="./components-range-slider_files/jquery.min.js.download"></script>
+  <script src="./components-range-slider_files/popper.min.js.download"></script>
+  <script src="./components-range-slider_files/bootstrap.min.js.download"></script>
+	
+  <!-- simplebar js -->
+  <script src="./components-range-slider_files/simplebar.js.download"></script>
+  <!-- sidebar-menu js -->
+  <script src="./components-range-slider_files/sidebar-menu.js.download"></script>
+  
+  <!-- Custom scripts -->
+  <script src="./components-range-slider_files/app-script.js.download"></script>
+
+  <!--Ion range Slider-->
+  <script src="./components-range-slider_files/ion.rangeSlider.min.js.download"></script>
+  <script src="./components-range-slider_files/range-slider-script.js.download"></script>
+	
+
+
+</body></html>
